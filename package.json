@@ -6,6 +6,7 @@
   "scripts": {
     "test:coverage": "jest --coverage",
     "test:dev": "jest --watch",
+    "test": "jest",
     "lint:check": "eslint --fix .",
     "format:write": "prettier --write .",
     "start": "node bootstrap.js"
