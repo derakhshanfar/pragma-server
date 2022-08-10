@@ -105,7 +105,7 @@ CORS makes network requests double. If I had more time, I would setup nginx as a
 
 ## Available scripts
 
-- `npm start` - Start the application (Port 3000)
+- `npm start` - Start the application (Port 8081)
 - `npm run test:dev` run test
 - `npm run test:coverage` Create coverage test report
 
