@@ -5,6 +5,7 @@
 - Authentication and Authorization is not something that product want
 - I'm not supposed to improve current UI & UX. 
 - We don't need to record the Beers data somewhere like DataDog
+- There is a Blue/Green deployment system
 
 
 ## System Design 
@@ -92,6 +93,7 @@ In the Internal Layers, you don't see any import from the external layers, which
 CORS makes network requests double. If I had more time, I would setup nginx as a proxy server
 
 ## If I had more time I would:
+- Setup Monitoring system with Prometheus and Grafana to and set alert
 - Add a factory pattern for creating controller like `userCaseFactory.js`
 - Add socket.io instead of pooling and add a cron job to push new data
 - Integrate with push notification in case the socket is closed
